@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   outline: 0;
+  box-sizing: border-box;
 }
 
 a,
@@ -95,6 +98,43 @@ img {
   width: 100%;
 }
 
+/* Custom CSS Start */
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: #fff;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: transparent;
+}
+
+.hero {
+  background: #f2f5f7;
+}
+
+.hero header {
+  width: 1173px;
+  gap: 13.5px;
+  padding: 20px 0;
+}
+
+.hero header .languageBtn {
+  color: #06071a;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.hero header .socialIcons {
+  gap: 21px;
+}
+.hero header .socialIcons a {
+  color: #06071a;
+  font-size: 12px;
+}
+
 /* 7XL devices (largest screens, 3840px and up) */
 @media (min-width: 3840px) {
 }
@@ -140,14 +180,5 @@ img {
 }
 
 /* 2xs devices (portrait phones, less than 414px) */
-@media (min-width: 360px) and (max-width: 413px) {
-}
-
-.mainBody {
-  background-color: #f5f5f5;
-  padding: 20px;
-}
-
-.mainBody .testUI {
-  color: #8a2be2;
+@media (max-width: 413px) {
 }
