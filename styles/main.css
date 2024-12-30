@@ -135,6 +135,31 @@ button {
   font-size: 12px;
 }
 
+.hero .line {
+  height: 1px;
+  background: #c0c4d2;
+}
+.hero .nav-menu {
+  width: 1246px;
+  background: #ffffff;
+  padding: 23px 38px;
+  margin: 22px 0;
+}
+.hero .nav-menu .nav-list {
+  gap: 30px;
+  margin-right: 50px;
+}
+.hero .nav-menu .nav-list a {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 16px;
+  color: #071c1f;
+  transition: all 0.3s ease;
+}
+
+.hero .nav-menu .nav-list a:hover {
+  color: #149572;
+}
 /* 7XL devices (largest screens, 3840px and up) */
 @media (min-width: 3840px) {
 }
