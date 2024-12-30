@@ -1,139 +1,153 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
 }
 
 a,
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul,
 li,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .justify-start {
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .justify-end {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .justify-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .justify-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 
 .align-start {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .align-end {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 .align-baseline {
-    align-items: baseline;
+  align-items: baseline;
 }
 
 .align-stretch {
-    align-items: stretch;
+  align-items: stretch;
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .flex-nowrap {
-    flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .flex-wrap-reverse {
-    flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 .flex-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .flex-row {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .flex-row-reverse {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .flex-column-reverse {
-    flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 
-.w-full{
-    width: 100%;
+.w-full {
+  width: 100%;
 }
-
-
 
 /* 7XL devices (largest screens, 3840px and up) */
-@media (min-width: 3840px) {}
+@media (min-width: 3840px) {
+}
 
 /* 6XL devices (5K and larger, 2560px and up) */
-@media (min-width: 2560px) and (max-width: 3839px) {}
+@media (min-width: 2560px) and (max-width: 3839px) {
+}
 
 /* 5XL devices (4K, 1920px and up) */
-@media (min-width: 1921px) and (max-width: 2559px) {}
+@media (min-width: 1921px) and (max-width: 2559px) {
+}
 
 /* 4XL devices (extra-large desktops, 1536px and up) */
-@media (min-width: 1536px) and (max-width: 1920px) {}
+@media (min-width: 1536px) and (max-width: 1920px) {
+}
 
 /* 3XL devices (larger desktops, 1440px and up) */
-@media (min-width: 1440px) and (max-width: 1535px) {}
+@media (min-width: 1440px) and (max-width: 1535px) {
+}
 
 /* 2XL devices (large desktops, 1360px and up) */
-@media (min-width: 1360px) and (max-width: 1439px) {}
+@media (min-width: 1360px) and (max-width: 1439px) {
+}
 
 /* Extra large devices (large desktops, 1280px and up) */
-@media (min-width: 1280px) and (max-width: 1359px) {}
+@media (min-width: 1280px) and (max-width: 1359px) {
+}
 
 /* large devices (laptop, 1024px and up) */
-@media (min-width: 1024px) and (max-width: 1279px) {}
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 1023px) {}
+@media (min-width: 768px) and (max-width: 1023px) {
+}
 
 /* Small devices (landscape phones, 640px and up) */
-@media (min-width: 640px) and (max-width: 767px) {}
+@media (min-width: 640px) and (max-width: 767px) {
+}
 
 /* Extra small devices (portrait phones, less than 640px) */
-@media (min-width: 414px) and (max-width: 639px) {}
+@media (min-width: 414px) and (max-width: 639px) {
+}
 
 /* 2xs devices (portrait phones, less than 414px) */
-@media (min-width: 360px) and (max-width: 413px) {}
+@media (min-width: 360px) and (max-width: 413px) {
+}
 
+.mainBody {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
 
-
-
-
+.mainBody .testUI {
+  color: #8a2be2;
+}
