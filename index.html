@@ -1,51 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/all.min.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=7" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <title>Document</title>
-  </head>
-  <body>
-    <section class="hero w-full flex flex-column justify-center align-center">
-      <header class="flex flex-row justify-end align-center">
-        <div class="socialIcons flex justify-start align-center">
-          <a href="#" class=""><i class="fa-brands fa-facebook-f"></i> </a>
-          <a href="#" class=""><i class="fa-brands fa-twitter"></i> </a>
-          <a href="#" class=""><i class="fa-brands fa-vimeo-v"></i></a>
-          <a href="#" class=""><i class="fa-brands fa-pinterest-p"></i></a>
-        </div>
-        <button class="languageBtn" type="button">English</button>
-      </header>
-      <div class="w-full line"></div>
-      <div class="nav-menu flex justify-between flex-row align-center">
-        <a href="/" class="">
-          <img src="./assets/img/logo.svg" alt="logo" />
-          <div class="flex flex-row justify-start align-center">
-            <div class="flex flex-row justify-start nav-list">
-              <a href="" class="">home</a>
-              <a href="" class="">shop</a>
-              <a href="" class="">contact</a>
-            </div>
 
-            <div class="flex flex-row justify-start align-center iconGroup">
-              <a href="" class=""><i class="fa-regular fa-user"></i></a>
-              <a href="" class=""
-                ><i class="fa-solid fa-cart-shopping"></i>
-                <div class="">
-                  <p class="">4</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/all.min.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="flex flex-row justify-center align-center">
+    <div class="flex flex-row justify-end align-center container">
+      <div class="socialIcons flex justify-start align-center">
+        <a href="#" class=""><i class="fa-brands fa-facebook-f"></i> </a>
+        <a href="#" class=""><i class="fa-brands fa-twitter"></i> </a>
+        <a href="#" class=""><i class="fa-brands fa-vimeo-v"></i></a>
+        <a href="#" class=""><i class="fa-brands fa-pinterest-p"></i></a>
       </div>
-    </section>
-  </body>
+      <button class="languageBtn" type="button">English</button>
+    </div>
+  </header>
+  <div class="w-full line"></div>
+  <section class="hero w-full flex flex-column justify-center align-center">
+    <div class="nav-menu flex justify-between flex-row align-center">
+      <a href="/" class="">
+        <img src="./assets/img/logo.svg" alt="logo" />
+        <div class="flex flex-row justify-start align-center">
+          <div class="flex flex-row justify-start nav-list">
+            <a href="" class="">home</a>
+            <a href="" class="">shop</a>
+            <a href="" class="">contact</a>
+          </div>
+          <div class="flex flex-row justify-start align-center iconGroup">
+            <a href="" class=""><i class="fa-regular fa-user"></i></a>
+            <a href="" class="cartIcon">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <div class="cartCounter">
+                <p class="">4</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="flex flex-row justify-center align-center heroContainer ">
+      <div class="flex flex-column justify-start align-start innerText ">
+        <img src="./assets/img/shape.svg" class="healthShape" alt="" srcset="">
+        <div class="uspCard">
+          <p class="">100% genuine Products</p>
+        </div>
+        <h1>Get 20% Discount
+          Of N95 Mask</h1>
+        <p class="subHeader">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+        <a href="" class="shopNowBtn">Shop Now !</a>
+      </div>
+      <div class="promotionalProduct">
+        <img src="./assets/img/promo-img.png" alt="">
+        <div class="model">
+          <p class="">n95</p>
+        </div>
+        <div class="bigCircle circle "></div>
+        <div class="smallCircle circle "></div>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>

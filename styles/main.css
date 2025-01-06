@@ -111,44 +111,55 @@ button {
   border: transparent;
 }
 
-.hero {
+
+header {
   background: #f2f5f7;
+
 }
 
-.hero header {
+header .container {
   width: 1173px;
   gap: 13.5px;
   padding: 20px 0;
 }
 
-.hero header .languageBtn {
+header .languageBtn {
   color: #06071a;
   font-weight: 400;
   font-size: 15px;
 }
 
-.hero header .socialIcons {
+header .socialIcons {
   gap: 21px;
 }
-.hero header .socialIcons a {
+
+header .socialIcons a {
   color: #06071a;
   font-size: 12px;
 }
 
-.hero .line {
+.line {
   height: 1px;
   background: #c0c4d2;
 }
+
+.hero {
+  background: #f2f5f7;
+  padding: 22px 0 122px;
+}
+
+
 .hero .nav-menu {
   width: 1246px;
   background: #ffffff;
   padding: 23px 38px;
-  margin: 22px 0;
 }
+
 .hero .nav-menu .nav-list {
   gap: 30px;
   margin-right: 50px;
 }
+
 .hero .nav-menu .nav-list a {
   text-transform: capitalize;
   font-weight: 700;
@@ -160,50 +171,156 @@ button {
 .hero .nav-menu .nav-list a:hover {
   color: #149572;
 }
-/* 7XL devices (largest screens, 3840px and up) */
-@media (min-width: 3840px) {
+
+.hero .nav-menu .iconGroup {
+  margin-right: 32px;
+  gap: 14px;
 }
+
+.hero .nav-menu .iconGroup a i {
+  font-size: 18px;
+  color: #071c1f;
+}
+
+.hero .nav-menu .iconGroup .cartIcon {
+  position: relative;
+}
+
+.hero .nav-menu .iconGroup .cartIcon .cartCounter {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 16px;
+  aspect-ratio: 1/1;
+  background-color: #0A9A73;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.hero .heroContainer {
+  padding: 116px 0;
+  gap: 133px;
+
+}
+
+.hero .heroContainer .innerText {
+  position: relative;
+  width: 511px;
+}
+
+.hero .heroContainer .innerText .healthShape {
+  position: absolute;
+  left: -96px;
+  top: -52px;
+}
+
+.hero .heroContainer .innerText .uspCard {
+  padding: 12px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #0A9A73;
+  margin-bottom: 11px;
+}
+
+.hero .heroContainer .innerText h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1;
+  margin-bottom: 37px;
+}
+
+.hero .heroContainer .innerText .subHeader {
+  font-size: 16px;
+  line-height: 20px;
+  color: #6D7580;
+  margin-bottom: 30px;
+}
+
+.hero .heroContainer .innerText .shopNowBtn {
+  padding: 16px 45px;
+  background: #0A9A73;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.hero .heroContainer .promotionalProduct {
+  width: 537px;
+  height: 513px;
+  position: relative;
+}
+
+.hero .heroContainer .promotionalProduct .model {
+  position: absolute;
+  bottom: 0px;
+  right: 44px;
+  width: 90px;
+  aspect-ratio: 1/1;
+  background-color: #0A9A73;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero .heroContainer .promotionalProduct .circle {
+  aspect-ratio: 1/1;
+  position: absolute;
+  background-color: #0A9A73;
+  border-radius: 50%;
+}
+
+.hero .heroContainer .promotionalProduct .bigCircle {
+  width: 14px;
+  right: -82px;
+  bottom: 59px;
+}
+
+.hero .heroContainer .promotionalProduct .smallCircle {
+  width: 7px;
+  right: -98px;
+  bottom: 48px;
+}
+
+/* 7XL devices (largest screens, 3840px and up) */
+@media (min-width: 3840px) {}
 
 /* 6XL devices (5K and larger, 2560px and up) */
-@media (min-width: 2560px) and (max-width: 3839px) {
-}
+@media (min-width: 2560px) and (max-width: 3839px) {}
 
 /* 5XL devices (4K, 1920px and up) */
-@media (min-width: 1921px) and (max-width: 2559px) {
-}
+@media (min-width: 1921px) and (max-width: 2559px) {}
 
 /* 4XL devices (extra-large desktops, 1536px and up) */
-@media (min-width: 1536px) and (max-width: 1920px) {
-}
+@media (min-width: 1536px) and (max-width: 1920px) {}
 
 /* 3XL devices (larger desktops, 1440px and up) */
-@media (min-width: 1440px) and (max-width: 1535px) {
-}
+@media (min-width: 1440px) and (max-width: 1535px) {}
 
 /* 2XL devices (large desktops, 1360px and up) */
-@media (min-width: 1360px) and (max-width: 1439px) {
-}
+@media (min-width: 1360px) and (max-width: 1439px) {}
 
 /* Extra large devices (large desktops, 1280px and up) */
-@media (min-width: 1280px) and (max-width: 1359px) {
-}
+@media (min-width: 1280px) and (max-width: 1359px) {}
 
 /* large devices (laptop, 1024px and up) */
-@media (min-width: 1024px) and (max-width: 1279px) {
-}
+@media (min-width: 1024px) and (max-width: 1279px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 1023px) {
-}
+@media (min-width: 768px) and (max-width: 1023px) {}
 
 /* Small devices (landscape phones, 640px and up) */
-@media (min-width: 640px) and (max-width: 767px) {
-}
+@media (min-width: 640px) and (max-width: 767px) {}
 
 /* Extra small devices (portrait phones, less than 640px) */
-@media (min-width: 414px) and (max-width: 639px) {
-}
+@media (min-width: 414px) and (max-width: 639px) {}
 
 /* 2xs devices (portrait phones, less than 414px) */
-@media (max-width: 413px) {
-}
+@media (max-width: 413px) {}
