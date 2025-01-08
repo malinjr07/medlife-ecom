@@ -1,75 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/all.min.css" />
+    <link rel="stylesheet" href="./styles/primary.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles/all.min.css" />
-  <link rel="stylesheet" href="./styles/main.css" />
-  <meta http-equiv="X-UA-Compatible" content="IE=7" />
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <meta name="author" content="" />
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-  <title>Document</title>
-</head>
-
-<body>
-  <header class="flex flex-row justify-center align-center">
-    <div class="flex flex-row justify-end align-center container">
-      <div class="socialIcons flex justify-start align-center">
-        <a href="#" class=""><i class="fa-brands fa-facebook-f"></i> </a>
-        <a href="#" class=""><i class="fa-brands fa-twitter"></i> </a>
-        <a href="#" class=""><i class="fa-brands fa-vimeo-v"></i></a>
-        <a href="#" class=""><i class="fa-brands fa-pinterest-p"></i></a>
+  <body>
+    <header class="flex flex-row justify-center align-center">
+      <div class="flex flex-row justify-end align-center container">
+        <div class="socialIcons flex justify-start align-center">
+          <a href="#" class=""><i class="fa-brands fa-facebook-f"></i> </a>
+          <a href="#" class=""><i class="fa-brands fa-twitter"></i> </a>
+          <a href="#" class=""><i class="fa-brands fa-vimeo-v"></i></a>
+          <a href="#" class=""><i class="fa-brands fa-pinterest-p"></i></a>
+        </div>
+        <button class="languageBtn" type="button">English</button>
       </div>
-      <button class="languageBtn" type="button">English</button>
-    </div>
-  </header>
-  <div class="w-full line"></div>
-  <section class="hero w-full flex flex-column justify-center align-center">
-    <div class="nav-menu flex justify-between flex-row align-center">
-      <a href="/" class="">
-        <img src="./assets/img/logo.svg" alt="logo" />
-        <div class="flex flex-row justify-start align-center">
-          <div class="flex flex-row justify-start nav-list">
-            <a href="" class="">home</a>
-            <a href="" class="">shop</a>
-            <a href="" class="">contact</a>
+    </header>
+    <div class="w-full line"></div>
+    <section class="hero w-full flex flex-column justify-center align-center">
+      <div class="nav-menu flex justify-between flex-row align-center">
+        <a href="/" class="">
+          <img src="./assets/img/logo.svg" alt="logo" />
+          <div class="flex flex-row justify-start align-center">
+            <div class="flex flex-row justify-start nav-list">
+              <a href="" class="">home</a>
+
+              <a href="" class="">shop</a>
+
+              <a href="" class="">contact</a>
+            </div>
+            <div class="flex flex-row justify-start align-center iconGroup">
+              <a href="" class=""><i class="fa-regular fa-user"></i></a>
+              <a href="" class="cartIcon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="cartCounter">
+                  <p class="">4</p>
+                </div>
+              </a>
+            </div>
           </div>
-          <div class="flex flex-row justify-start align-center iconGroup">
-            <a href="" class=""><i class="fa-regular fa-user"></i></a>
-            <a href="" class="cartIcon">
-              <i class="fa-solid fa-cart-shopping"></i>
-              <div class="cartCounter">
-                <p class="">4</p>
-              </div>
-            </a>
+        </a>
+      </div>
+      <div class="flex flex-row justify-center align-center heroContainer">
+        <div class="flex flex-column justify-start align-start innerText">
+          <img
+            src="./assets/img/shape.svg"
+            class="healthShape"
+            alt=""
+            srcset=""
+          />
+          <div class="uspCard">
+            <p class="">100% genuine Products</p>
           </div>
+          <h1>Get 20% Discount Of N95 Mask</h1>
+          <p class="subHeader">
+            Lorem ipsum dolor sit amet, consectetur adipisicing
+          </p>
+          <a href="" class="shopNowBtn">Shop Now !</a>
         </div>
-      </a>
-    </div>
-    <div class="flex flex-row justify-center align-center heroContainer ">
-      <div class="flex flex-column justify-start align-start innerText ">
-        <img src="./assets/img/shape.svg" class="healthShape" alt="" srcset="">
-        <div class="uspCard">
-          <p class="">100% genuine Products</p>
+        <div class="promotionalProduct">
+          <img src="./assets/img/promo-img.png" alt="" />
+          <div class="model">
+            <p class="">n95</p>
+          </div>
+          <div class="bigCircle circle"></div>
+          <div class="smallCircle circle"></div>
         </div>
-        <h1>Get 20% Discount
-          Of N95 Mask</h1>
-        <p class="subHeader">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-        <a href="" class="shopNowBtn">Shop Now !</a>
       </div>
-      <div class="promotionalProduct">
-        <img src="./assets/img/promo-img.png" alt="">
-        <div class="model">
-          <p class="">n95</p>
-        </div>
-        <div class="bigCircle circle "></div>
-        <div class="smallCircle circle "></div>
-      </div>
-    </div>
-  </section>
-</body>
+    </section>
 
+    <section class="category flex flex-row justify-center align-center">
+      <button type="button" class="sliderBtn">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <div class="categoryList flex flex-row justify-center align-end">
+        <a
+          href="#"
+          class="categoryItem flex flex-column justify-center align-center"
+        >
+          <svg
+            width="35"
+            height="38"
+            viewBox="0 0 35 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30.356 13.133H25.756C26.3513 10.5386 26.6661 7.88787 26.695 5.22638V3.90796L25.488 4.16864C24.3084 4.42401 23.088 4.42717 21.907 4.17791C20.7261 3.92864 19.6113 3.4326 18.636 2.72237L17.719 2.06815C16.5663 1.22884 15.2544 0.63315 13.8634 0.317501C12.4724 0.00185145 11.0316 -0.0271258 9.629 0.232341L8.872 0.378167L8.644 2.82225C8.38793 6.22167 8.60975 9.64017 9.303 12.9781L9.334 13.134H4.684L0.25 22.6316V37.0494H34.79V22.6316L30.356 13.133ZM10.658 3.03799L10.73 2.26691C12.8136 2.06941 14.8978 2.6376 16.592 3.86501L17.509 4.51923C19.57 6.01735 22.1069 6.71402 24.645 6.47889C24.4102 10.2253 23.6629 13.9219 22.424 17.4658H20.556V15.2984H18.532V17.4658H16.508V10.9655H14.484V17.4688H12.621C11.0075 12.8379 10.3401 7.93095 10.658 3.03799ZM5.935 15.3004H9.835C10.044 16.1154 10.259 16.8495 10.461 17.4678H8.413V19.6352H26.628V17.4678H24.578C24.778 16.8685 25.001 16.1304 25.225 15.3004H29.105L32.141 21.8066H2.899L5.935 15.3004ZM32.767 23.971V30.5462H2.274V23.972L32.767 23.971ZM2.274 34.882V32.7146H32.767V34.882H2.274Z"
+              id="icon"
+            />
+          </svg>
+
+          <p class="categoryName">best deal</p>
+        </a>
+        <a
+          href="#"
+          class="categoryItem flex flex-column justify-center align-center"
+        >
+          <img
+            src="./assets/img/icons/germs-pod-category.svg"
+            class="categoryIcon"
+            alt=""
+          />
+          <p class="categoryName">germs pod</p>
+        </a>
+        <a
+          href="#"
+          class="categoryItem flex flex-column justify-center align-center"
+        >
+          <img
+            src="./assets/img/icons/accessories-category.svg"
+            class="categoryIcon"
+            alt=""
+          />
+          <p class="categoryName">Accessories</p>
+        </a>
+        <a
+          href="#"
+          class="categoryItem flex flex-column justify-center align-center"
+        >
+          <img
+            src="./assets/img/icons/medicine-cap-category.svg"
+            class="categoryIcon"
+            alt=""
+          />
+          <p class="categoryName">medicine cap</p>
+        </a>
+        <a
+          href="#"
+          class="categoryItem flex flex-column justify-center align-center"
+        >
+          <img
+            src="./assets/img/icons/dental-item-category.svg"
+            class="categoryIcon"
+            alt=""
+          />
+          <p class="categoryName">dental item</p>
+        </a>
+        <a
+          href="#"
+          class="categoryItem flex flex-column justify-center align-center"
+        >
+          <img
+            src="./assets/img/icons/best-deal-02-category.svg"
+            class="categoryIcon"
+            alt=""
+          />
+          <p class="categoryName">best deals</p>
+        </a>
+        <a
+          href="#"
+          class="categoryItem flex flex-column justify-center align-center"
+        >
+          <img
+            src="./assets/img/icons/all-products-category.svg"
+            class="categoryIcon"
+            alt=""
+          />
+          <p class="categoryName">all products</p>
+        </a>
+      </div>
+      <button type="button" class="sliderBtn">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </section>
+  </body>
 </html>
+

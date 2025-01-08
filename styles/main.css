@@ -1,109 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
-}
-
-a,
-a:hover {
-  text-decoration: none;
-}
-
-ul,
-li,
-ol {
-  list-style: none;
-}
-
-img {
-  vertical-align: middle;
-}
-
-.flex {
-  display: flex;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
-}
-
-.justify-end {
-  justify-content: flex-end;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.align-start {
-  align-items: flex-start;
-}
-
-.align-end {
-  align-items: flex-end;
-}
-
-.align-baseline {
-  align-items: baseline;
-}
-
-.align-stretch {
-  align-items: stretch;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.flex-nowrap {
-  flex-wrap: nowrap;
-}
-
-.flex-wrap-reverse {
-  flex-wrap: wrap-reverse;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse;
-}
-
-.flex-column-reverse {
-  flex-direction: column-reverse;
-}
-
-.w-full {
-  width: 100%;
-}
-
-/* Custom CSS Start */
-
-body {
+/* 
   font-family: 'Josefin Sans', sans-serif;
-  background: #fff;
-}
+  font-family: "Nunito", serif;
+  font-family: "Inter", serif;
+  */
 
 button {
   cursor: pointer;
@@ -111,10 +10,8 @@ button {
   border: transparent;
 }
 
-
 header {
   background: #f2f5f7;
-
 }
 
 header .container {
@@ -147,7 +44,6 @@ header .socialIcons a {
   background: #f2f5f7;
   padding: 22px 0 122px;
 }
-
 
 .hero .nav-menu {
   width: 1246px;
@@ -192,7 +88,7 @@ header .socialIcons a {
   right: -8px;
   width: 16px;
   aspect-ratio: 1/1;
-  background-color: #0A9A73;
+  background-color: #0a9a73;
   border-radius: 50%;
   color: #fff;
   display: flex;
@@ -204,7 +100,6 @@ header .socialIcons a {
 .hero .heroContainer {
   padding: 116px 0;
   gap: 133px;
-
 }
 
 .hero .heroContainer .innerText {
@@ -222,7 +117,7 @@ header .socialIcons a {
   padding: 12px 20px;
   background-color: #fff;
   border-radius: 20px;
-  color: #0A9A73;
+  color: #0a9a73;
   margin-bottom: 11px;
 }
 
@@ -236,15 +131,16 @@ header .socialIcons a {
 .hero .heroContainer .innerText .subHeader {
   font-size: 16px;
   line-height: 20px;
-  color: #6D7580;
+  color: #6d7580;
   margin-bottom: 30px;
 }
 
 .hero .heroContainer .innerText .shopNowBtn {
   padding: 16px 45px;
-  background: #0A9A73;
+  background: #0a9a73;
   border-radius: 10px;
   color: #fff;
+  font-family: 'Inter', serif;
 }
 
 .hero .heroContainer .promotionalProduct {
@@ -259,7 +155,7 @@ header .socialIcons a {
   right: 44px;
   width: 90px;
   aspect-ratio: 1/1;
-  background-color: #0A9A73;
+  background-color: #0a9a73;
   border-radius: 50%;
   color: #fff;
   display: flex;
@@ -267,13 +163,14 @@ header .socialIcons a {
   align-items: center;
   font-size: 28px;
   font-weight: 700;
+  font-family: 'Inter', serif;
   text-transform: uppercase;
 }
 
 .hero .heroContainer .promotionalProduct .circle {
   aspect-ratio: 1/1;
   position: absolute;
-  background-color: #0A9A73;
+  background-color: #0a9a73;
   border-radius: 50%;
 }
 
@@ -289,38 +186,49 @@ header .socialIcons a {
   bottom: 48px;
 }
 
-/* 7XL devices (largest screens, 3840px and up) */
-@media (min-width: 3840px) {}
+.category {
+  padding: 43px 0;
+  gap: 38px;
+}
 
-/* 6XL devices (5K and larger, 2560px and up) */
-@media (min-width: 2560px) and (max-width: 3839px) {}
+.category .sliderBtn {
+  width: 34px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  transition: all 0.3s linear;
+  transform: scale(1);
+}
+.category .sliderBtn:hover {
+  transform: scale(1.1);
+}
 
-/* 5XL devices (4K, 1920px and up) */
-@media (min-width: 1921px) and (max-width: 2559px) {}
+.category .sliderBtn i {
+  font-size: 12px;
+  color: #0a9a73;
+}
 
-/* 4XL devices (extra-large desktops, 1536px and up) */
-@media (min-width: 1536px) and (max-width: 1920px) {}
+.category .categoryList {
+  gap: 79px;
+}
 
-/* 3XL devices (larger desktops, 1440px and up) */
-@media (min-width: 1440px) and (max-width: 1535px) {}
+.category .categoryList .categoryItem {
+  transition: all 0.3s linear;
+  gap: 20px;
+}
+.category .categoryList .categoryItem #icon {
+  fill: #071c1f;
+}
 
-/* 2XL devices (large desktops, 1360px and up) */
-@media (min-width: 1360px) and (max-width: 1439px) {}
+.category .categoryList .categoryItem .categoryName {
+  text-transform: capitalize;
+  color: #071c1f;
+}
 
-/* Extra large devices (large desktops, 1280px and up) */
-@media (min-width: 1280px) and (max-width: 1359px) {}
+.category .categoryList .categoryItem:hover .categoryName {
+  color: #0a9a73;
+}
+.category .categoryList .categoryItem:hover #icon {
+  fill: #0a9a73;
+}
 
-/* large devices (laptop, 1024px and up) */
-@media (min-width: 1024px) and (max-width: 1279px) {}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 1023px) {}
-
-/* Small devices (landscape phones, 640px and up) */
-@media (min-width: 640px) and (max-width: 767px) {}
-
-/* Extra small devices (portrait phones, less than 640px) */
-@media (min-width: 414px) and (max-width: 639px) {}
-
-/* 2xs devices (portrait phones, less than 414px) */
-@media (max-width: 413px) {}
