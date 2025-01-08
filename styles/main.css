@@ -4,6 +4,15 @@
   font-family: "Inter", serif;
   */
 
+.line {
+  height: 1px;
+  background: #c0c4d2;
+}
+
+.vertical {
+  transform: rotate(90deg);
+}
+
 button {
   cursor: pointer;
   background: transparent;
@@ -33,11 +42,6 @@ header .socialIcons {
 header .socialIcons a {
   color: #06071a;
   font-size: 12px;
-}
-
-.line {
-  height: 1px;
-  background: #c0c4d2;
 }
 
 .hero {
@@ -230,5 +234,102 @@ header .socialIcons a {
 }
 .category .categoryList .categoryItem:hover #icon {
   fill: #0a9a73;
+}
+
+.lineBreak {
+  width: 1177px;
+  margin: 0 auto;
+}
+
+.whyUs {
+  padding: 75px 0;
+  gap: 75px;
+}
+
+.whyUs .whyUsContent {
+  gap: 25px;
+}
+.whyUs .whyUsContent .heading {
+  width: 462px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 44px;
+  color: #071c1f;
+}
+
+.whyUs .whyUsContent .content {
+  width: 505px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6d7580;
+  font-family: 'Nunito', serif;
+}
+
+.whyUs .whyUsContent .checklist {
+  gap: 21px;
+  position: relative;
+}
+.whyUs .whyUsContent .checklist .covidIcon {
+  position: absolute;
+  right: -58px;
+  bottom: -20px;
+}
+
+.whyUs .whyUsContent .checklist .checkListItem {
+  gap: 13px;
+}
+
+.whyUs .whyUsContent .checklist .checkListItem .checkListIcon {
+  width: 26px;
+  aspect-ratio: 1/1;
+  background-color: #0a9a73;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.whyUs .whyUsContent .whyUsLine {
+  width: 515px;
+}
+
+.whyUs .whyUsContent .contactInfo .contactLine {
+  width: 42px;
+  padding: 0 21px;
+}
+
+.whyUs .whyUsContent .contactInfo .contactItem {
+  padding: 10px;
+  gap: 8px;
+  background: #ffffff;
+  transition: all 0.3s linear;
+  color: #071c1f;
+}
+
+.whyUs .whyUsContent .contactInfo .contactItem .contactHeading {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 14px;
+  color: #071c1f;
+  font-family: 'Inter', serif;
+}
+.whyUs .whyUsContent .contactInfo .contactItem .contactContent {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Nuinito', serif;
+  color: #071c1f;
+}
+.whyUs .whyUsContent .contactInfo .contactItem i {
+  font-size: 24px;
+  color: #071c1f;
+  transition: all 0.3s linear;
+}
+
+.whyUs .whyUsContent .contactInfo .contactItem:hover {
+  background: #f1f5f7;
+}
+.whyUs .whyUsContent .contactInfo .contactItem:hover i {
+  color: #0a9a73;
 }
 
