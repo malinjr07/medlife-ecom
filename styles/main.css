@@ -286,7 +286,7 @@ header .socialIcons a {
 
 .whyUs .whyUsContent .contactInfo .contactLine {
   width: 42px;
-  padding: 0 21px;
+  margin: 0 21px;
 }
 
 .whyUs .whyUsContent .contactInfo .contactItem {
@@ -322,5 +322,78 @@ header .socialIcons a {
 }
 .whyUs .whyUsContent .contactInfo .contactItem:hover i {
   color: #0a9a73;
+}
+
+.promoSection {
+  gap: 30px;
+  margin-bottom: 112px;
+}
+
+.promoSection .item {
+  width: 370px;
+  height: 441px;
+  padding: 37px 0 0 37px;
+  position: relative;
+}
+
+.promoSection .item h5 {
+  color: #0a9a73;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Nunito', serif;
+  margin-bottom: 3px;
+}
+
+.promoSection .item h4 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #071c1f;
+  margin-bottom: 14px;
+  width: 200px;
+}
+
+.promoSection .item a {
+  gap: 7px;
+}
+
+.promoSection .item:nth-child(3n + 1),
+.promoSection .item:nth-child(1) {
+  background-color: #dcedfd;
+}
+
+.promoSection .item:nth-child(3n + 2),
+.promoSection .item:nth-child(2) {
+  background-color: #e3efed;
+}
+
+.promoSection .item:nth-child(3n) {
+  background-color: #f3eee8;
+}
+
+.promoSection .item .imgArea {
+  position: absolute;
+  right: 37px;
+  bottom: 17px;
+  width: 210px;
+  aspect-ratio: 1/1;
+  background-color: rgba(255, 255, 255, 0.61);
+  border-radius: 50%;
+}
+.promoSection .item .imgArea img {
+  position: absolute;
+  bottom: 0;
+  width: 152px;
+  height: 275px;
+  object-fit: contain;
+}
+
+.promoSection .item:nth-child(odd) .imgArea img {
+  right: 0;
+}
+.promoSection .item:nth-child(even) .imgArea img {
+  left: 0;
 }
 
