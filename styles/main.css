@@ -4,15 +4,6 @@
   font-family: "Inter", serif;
   */
 
-.line {
-  height: 1px;
-  background: #c0c4d2;
-}
-
-.vertical {
-  transform: rotate(90deg);
-}
-
 button {
   cursor: pointer;
   background: transparent;
