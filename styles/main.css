@@ -4,6 +4,10 @@
   font-family: "Inter", serif;
   */
 
+.container {
+  width: 1170px;
+}
+
 button {
   cursor: pointer;
   background: transparent;
@@ -527,7 +531,8 @@ header .socialIcons a {
   border-radius: 50%;
   transition: all 0.3s linear;
   cursor: pointer;
-  transform: scaleX(0);
+  opacity: 0;
+  z-index: -1;
 }
 
 .featuredSection
@@ -537,7 +542,8 @@ header .socialIcons a {
   .imgContainer
   .iconSet
   .icon {
-  transform: scaleX(1);
+  opacity: 1;
+  z-index: 1;
 }
 
 .featuredSection .segment .productArea .productItem h4 {
@@ -554,9 +560,128 @@ header .socialIcons a {
   font-family: 'Inter', serif;
   font-size: 14px;
 }
+
 .featuredSection .segment .productArea .productItem h5 span {
   font-size: 12px;
   color: #fb2448;
   text-decoration: line-through;
+}
+
+.hotOffer {
+  background-color: #f2f6f7;
+  margin-bottom: 110px;
+  overflow: hidden;
+}
+
+.hotOffer > .child {
+  width: 1236px;
+  position: relative;
+}
+
+.hotOffer > .child .virus {
+  position: absolute;
+  left: -287px;
+  top: 102px;
+}
+
+.hotOffer > .child .illustration {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hotOffer > .child .inner_text {
+  margin: 107px 0;
+  width: 453px;
+}
+
+.hotOffer > .child .inner_text .title {
+  text-transform: capitalize;
+  font-family: 'Nunito', serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0a9a73;
+  margin-bottom: 13px;
+}
+
+.hotOffer > .child .inner_text .heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 44px;
+  color: #071c1f;
+  margin-bottom: 40px;
+}
+
+.hotOffer > .child .inner_text .details {
+  text-transform: capitalize;
+  font-family: 'Nunito', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #546375;
+  margin-bottom: 24px;
+}
+
+.hotOffer > .child .inner_text .timer {
+  gap: 23px;
+  margin-bottom: 36px;
+}
+
+.hotOffer > .child .inner_text .timer .item {
+  gap: 7px;
+  cursor: pointer;
+}
+
+.hotOffer > .child .inner_text .timer .item .value {
+  font-family: 'Nunito', serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 14px 20px;
+  box-shadow: 0px 3px 10px 0px #2e2b7414;
+  background: #ffffff;
+  color: #0a9a73;
+  transition: all 0.2s linear;
+}
+
+.hotOffer > .child .inner_text .timer .item:hover .value {
+  background: #0a9a73;
+  color: #ffffff;
+}
+
+.hotOffer > .child .inner_text .timer .item .label {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #071c1f;
+}
+
+.hotOffer > .child .inner_text .btn {
+  gap: 24px;
+}
+.hotOffer > .child .inner_text .btn a {
+  text-transform: capitalize;
+}
+
+.hotOffer > .child .inner_text .btn .shopNow {
+  padding: 12px 28px;
+  font-family: 'Nunito', serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  background: #0a9a73;
+  color: #ffffff;
+}
+
+.hotOffer > .child .inner_text .btn .dealOfTheDay {
+  font-family: 'Nunito', serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  color: #0a9a73;
+  text-decoration: underline;
 }
 
