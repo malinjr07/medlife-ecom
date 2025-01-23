@@ -569,33 +569,34 @@ header .socialIcons a {
 
 .hotOffer {
   background-color: #f2f6f7;
-  margin-bottom: 110px;
-  overflow: hidden;
-}
-
-.hotOffer > .child {
-  width: 1236px;
+  margin-bottom: 36px;
   position: relative;
 }
 
-.hotOffer > .child .virus {
-  position: absolute;
-  left: -287px;
-  top: 102px;
-}
+/* .hotOffer {
+  position: relative;
+  width: 1236px;
+  flex-wrap: wrap;
+  } */
 
-.hotOffer > .child .illustration {
-  position: absolute;
+.hotOffer .illustration {
+  /* position: absolute; */
   top: 0;
   right: 0;
 }
 
-.hotOffer > .child .inner_text {
-  margin: 107px 0;
+.hotOffer .inner_text {
+  position: relative;
   width: 453px;
 }
 
-.hotOffer > .child .inner_text .title {
+.hotOffer .inner_text .virus {
+  position: absolute;
+  left: -243px;
+  top: -50px;
+}
+
+.hotOffer .inner_text .title {
   text-transform: capitalize;
   font-family: 'Nunito', serif;
   font-weight: 700;
@@ -605,7 +606,7 @@ header .socialIcons a {
   margin-bottom: 13px;
 }
 
-.hotOffer > .child .inner_text .heading {
+.hotOffer .inner_text .heading {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 44px;
@@ -614,7 +615,7 @@ header .socialIcons a {
   margin-bottom: 40px;
 }
 
-.hotOffer > .child .inner_text .details {
+.hotOffer .inner_text .details {
   text-transform: capitalize;
   font-family: 'Nunito', serif;
   font-weight: 400;
@@ -624,17 +625,17 @@ header .socialIcons a {
   margin-bottom: 24px;
 }
 
-.hotOffer > .child .inner_text .timer {
+.hotOffer .inner_text .timer {
   gap: 23px;
   margin-bottom: 36px;
 }
 
-.hotOffer > .child .inner_text .timer .item {
+.hotOffer .inner_text .timer .item {
   gap: 7px;
   cursor: pointer;
 }
 
-.hotOffer > .child .inner_text .timer .item .value {
+.hotOffer .inner_text .timer .item .value {
   font-family: 'Nunito', serif;
   font-weight: 700;
   font-size: 18px;
@@ -646,12 +647,12 @@ header .socialIcons a {
   transition: all 0.2s linear;
 }
 
-.hotOffer > .child .inner_text .timer .item:hover .value {
+.hotOffer .inner_text .timer .item:hover .value {
   background: #0a9a73;
   color: #ffffff;
 }
 
-.hotOffer > .child .inner_text .timer .item .label {
+.hotOffer .inner_text .timer .item .label {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
   line-height: 18px;
@@ -659,14 +660,14 @@ header .socialIcons a {
   color: #071c1f;
 }
 
-.hotOffer > .child .inner_text .btn {
+.hotOffer .inner_text .btn {
   gap: 24px;
 }
-.hotOffer > .child .inner_text .btn a {
+.hotOffer .inner_text .btn a {
   text-transform: capitalize;
 }
 
-.hotOffer > .child .inner_text .btn .shopNow {
+.hotOffer .inner_text .btn .shopNow {
   padding: 12px 28px;
   font-family: 'Nunito', serif;
   font-weight: 700;
@@ -676,12 +677,19 @@ header .socialIcons a {
   color: #ffffff;
 }
 
-.hotOffer > .child .inner_text .btn .dealOfTheDay {
+.hotOffer .inner_text .btn .dealOfTheDay {
   font-family: 'Nunito', serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 21px;
   color: #0a9a73;
   text-decoration: underline;
+}
+
+.hotOffer .whiteSpace {
+  background: #ffffff;
+  height: 74px;
+  position: absolute;
+  bottom: 0;
 }
 
